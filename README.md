@@ -12,7 +12,7 @@ Buat Table Database
 USE LATIHAN2;
 CREATE TABLE tb_mahasiswa(
     id_barang int(11) PRIMARY KEY AUTO_INCREMENT,
-    nim varchar(30) NOT NULL,
+    nim char(8) NOT NULL,
     nama varchar(30) NOT NULL,
     alamat text NOT NULL,
 );
