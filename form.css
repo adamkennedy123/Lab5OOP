@@ -1,0 +1,40 @@
+form {
+  margin: 20px;
+  padding: 20px;
+  margin-left: 200px;
+  border-radius: 10px;
+  
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  margin-left: 200px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  margin-left: 200px;
+  border-radius: 19px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  margin-left: 500px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3394ee;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3394ee;
+}
