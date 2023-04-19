@@ -10,14 +10,11 @@ CREATE DATABASE LATIHAN2;
 Buat Table Database
 ````
 USE LATIHAN2;
-CREATE TABLE data_barang(
+CREATE TABLE tb_mahasiswa(
     id_barang int(11) PRIMARY KEY AUTO_INCREMENT,
-    nama_barang varchar(30) NOT NULL,
-    kategori_barang varchar(30) NOT NULL,
-    gambar_barang text NOT NULL,
-    harga_beli decimal(10,0) NOT NULL,
-    harga_jual decimal(10,0) NOT NULL,
-    stok int(4) NOT NULL
+    nim varchar(30) NOT NULL,
+    nama varchar(30) NOT NULL,
+    alamat text NOT NULL,
 );
 ````
  
